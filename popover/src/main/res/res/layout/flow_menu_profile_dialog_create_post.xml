@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="184dp"
+    android:layout_height="wrap_content"
+    android:minWidth="184dp"
+    android:minHeight="50dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_40dp"
+        android:layout_height="@dimen/_40dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/triangle_shape"
+        android:rotation="0" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bordered_bg_8dp"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/_8dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/create_post"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_weight="1"
+                android:gravity="end|center"
+                android:text="@string/post"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="@dimen/_28dp"
+                android:layout_height="@dimen/_28dp"
+                android:layout_marginEnd="@dimen/_18dp"
+                android:contentDescription="@string/content_description"
+                android:src="@drawable/ic_profile_create_post" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--        <include layout="@layout/divider" />-->
+
+        <!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--            android:id="@+id/create_story"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:background="?selectableItemBackground"-->
+        <!--            android:gravity="center">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginEnd="@dimen/_16dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="end|center"-->
+        <!--                android:text="@string/story"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="15sp" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="@dimen/_28dp"-->
+        <!--                android:layout_height="@dimen/_28dp"-->
+        <!--                android:layout_marginEnd="@dimen/_18dp"-->
+        <!--                android:contentDescription="@string/content_description"-->
+        <!--                android:src="@drawable/ic_profile_create_story" />-->
+        <!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--        <include layout="@layout/divider" />-->
+
+        <!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--            android:id="@+id/create_reel"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:background="?selectableItemBackground"-->
+        <!--            android:gravity="center">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginEnd="@dimen/_16dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="end|center"-->
+        <!--                android:text="@string/reel"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="15sp" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="@dimen/_28dp"-->
+        <!--                android:layout_height="@dimen/_28dp"-->
+        <!--                android:layout_marginEnd="@dimen/_18dp"-->
+        <!--                android:contentDescription="@string/content_description"-->
+        <!--                android:src="@drawable/ic_profile_create_reel" />-->
+        <!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--        <include layout="@layout/divider" />-->
+
+        <!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--            android:id="@+id/go_live"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:background="?selectableItemBackground"-->
+        <!--            android:gravity="center">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginEnd="@dimen/_16dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="end|center"-->
+        <!--                android:text="@string/live"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="15sp" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="@dimen/_28dp"-->
+        <!--                android:layout_height="@dimen/_28dp"-->
+        <!--                android:layout_marginEnd="@dimen/_18dp"-->
+        <!--                android:contentDescription="@string/content_description"-->
+        <!--                android:src="@drawable/ic_profile_go_live" />-->
+        <!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

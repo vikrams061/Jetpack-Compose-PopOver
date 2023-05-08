@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:background="@drawable/rectangle_shape_player_border"
+    android:layoutDirection="ltr"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@id/exo_play"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_video_play"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@id/exo_pause"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_video_pause" />
+
+        <TextView
+            android:id="@id/exo_position"
+           android:textSize="@dimen/_12sp"
+            android:text="0:00"
+            style="@style/ExoStyledControls.TimeText.Position" />
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            app:bar_height="2dp"
+            app:scrubber_color="@color/white"
+            app:scrubber_dragged_size="@dimen/_12dp"
+            app:scrubber_enabled_size="11dp"/>
+
+        <TextView
+            android:id="@id/exo_duration"
+            android:textSize="@dimen/_12sp"
+            android:text=""
+            style="@style/ExoStyledControls.TimeText.Duration"/>
+
+        <ImageButton
+            android:id="@+id/exo_cast"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_airplayvideo" />
+        <ImageButton
+            android:id="@+id/exo_more"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_ellipsis"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+
+</LinearLayout>

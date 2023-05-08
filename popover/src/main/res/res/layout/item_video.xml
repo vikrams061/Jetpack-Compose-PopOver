@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/card_container"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/media_player_holder"
+            layout="@layout/inline_media_player_layout"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/vimeo_player_holder"
+            layout="@layout/inline_vimeo_player_layout"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/youtube_player_holder"
+            layout="@layout/inline_youtube_player_layout"
+            android:visibility="gone" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/ytp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:enableAutomaticInitialization="false"
+            tools:ignore="MissingClass" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

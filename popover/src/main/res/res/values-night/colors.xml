@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tags_title_text">#EAEAEA</color>
+    <color name="tags_dropdown_icon_tint">#C4C4C4</color>
+    <color name="back_button_icon_tint">@color/neutral_gray_300</color>
+    <color name="account_settings_background">@color/black_900</color>
+    <color name="blocked_accounts_bg">@color/neutral_gray_700</color>
+    <color name="forget_password_text">@color/error_red_300</color>
+    <color name="deactivate_bg">@color/white</color>
+    <color name="dialog_share_bg">@color/black</color>
+    <color name="direct_share_bg">@color/neutral_gray_900</color>
+    <color name="unfollow_btn">@color/black</color>
+    <color name="follower_item_bg">@color/black</color>
+    <color name="text_field_box_bg">@color/neutral_gray_900</color>
+    <color name="blackWhite">@color/white</color>
+    <color name="whiteBlack">@color/black</color>
+    <color name="divider_color">@android:color/transparent</color>
+    <color name="unfollow_btn_profile">@color/white</color>
+    <color name="error_dialog_btn_stroke">@color/neutral_gray_500</color>
+    <color name="error_dialog_btn_solid">@color/neutral_gray_700</color>
+    <color name="theme_tab_layout_selected_bg">@color/neutral_gray_500</color>
+    <color name="theme_tab_layout_unselected_bg">@color/neutral_gray_900</color>
+    <color name="theme_tab_background">@color/neutral_gray_900</color>
+    <color name="trophy_case_item_bg">@color/neutral_gray_900</color>
+    <color name="edit_text_bg">@color/neutral_gray_900</color>
+    <color name="dashboard_bg">@color/black</color>
+    <color name="dashboard_influence_bg">@color/neutral_gray_900</color>
+    <color name="dashboard_settings_bg">@color/neutral_gray_900</color>
+    <color name="dashboard_influence_separator">@color/black</color>
+    <color name="impact_stats_bg">@color/neutral_gray_900</color>
+    <color name="light_night_mode_gray">@color/white</color>
+    <color name="stats_card_bg">@color/black_tonal</color>
+    <color name="group_dialog_bg">@color/neutral_gray_900</color>
+    <color name="group_dialog_text">@color/neutral_gray_50</color>
+    <color name="stats_icon_color">@color/neutral_gray_700</color>
+
+</resources>

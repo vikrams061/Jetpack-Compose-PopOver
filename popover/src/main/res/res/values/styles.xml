@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AcceptButtonStyle">
+        <item name="android:backgroundTint">@color/primary_blue_700</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="TransparentBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/MYBottomSheetStyle</item>
+    </style>
+
+    <style name="MYBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="expandedHintEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeErrorColor">?colorError</item>
+        <item name="boxStrokeColor">?colorPrimary</item>
+        <item name="boxBackgroundColor">@color/text_field_box_bg</item>
+        <item name="errorIconTint">?colorError</item>
+    </style>
+
+    <style name="CountryCodeInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxStrokeColor">?colorPrimary</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="expandedHintEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeErrorColor">?colorError</item>
+        <item name="boxBackgroundColor">@color/text_field_box_bg</item>
+        <item name="errorIconTint">?colorError</item>
+    </style>
+
+    <style name="PhoneInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="expandedHintEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeErrorColor">?colorError</item>
+        <item name="boxStrokeColor">?colorPrimary</item>
+        <item name="boxBackgroundColor">@color/text_field_box_bg</item>
+        <item name="errorIconTint">?colorError</item>
+    </style>
+
+    <style name="AutoCompleteTextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:inputType">text|textNoSuggestions</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?primaryThemeTextColor</item>
+        <item name="android:textColorHint">@color/neutral_gray_900</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.Widget.ExposedDropdownMenu" parent="TextInputStyle">
+        <item name="materialThemeOverlay">
+            @style/AppTheme.Widget.ExposedDropdownMenu.MaterialThemeOverlay
+        </item>
+    </style>
+
+    <style name="AppTheme.Widget.ExposedDropdownMenu.MaterialThemeOverlay" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="dialog_animation_fade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Widget.SocialView" parent="android:Widget.TextView">
+        <item name="social_hashtagColor">?colorAccent</item>
+        <item name="social_mentionColor">?colorAccent</item>
+        <item name="social_hyperlinkColor">?colorAccent</item>
+    </style>
+
+    <style name="AccountSettingsEdittextStyle">
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/neutral_gray_500</item>
+    </style>
+
+    <style name="TabLayoutText" parent="Widget.Design.TabLayout">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="round_cornered">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="round_cornered_15">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18%</item>
+    </style>
+
+    <style name="TextInputEditTextMainStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="hintTextColor">?android:textColorHint</item>
+        <item name="android:textColor">?android:textColor</item>
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingStart">@dimen/_12dp</item>
+        <item name="android:paddingEnd">@dimen/_12dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="TextInputEdittextEmailStyle" parent="TextInputEditTextMainStyle">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:maxLength">320</item>
+    </style>
+
+    <style name="TextInputEdittextPasswordStyle" parent="TextInputEditTextMainStyle">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">100</item>
+    </style>
+
+    <style name="TextInputEditTextPhoneStyle" parent="TextInputEditTextMainStyle">
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">15</item>
+    </style>
+
+    <style name="AuthMaterialButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal" tools:ignore="NewApi">32dp</item>
+        <item name="android:drawablePadding">@dimen/_10dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="SLButton.Colored" parent="Widget.MaterialComponents.Button">
+        <item name="iconTint">@color/white</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">@dimen/_8dp</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+    </style>
+
+    <style name="CancelButtonStyle">
+        <item name="android:backgroundTint">@color/neutral_gray_700</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/neutral_gray_50</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="CreateGroupTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/blackWhite</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="GreenSwitchStyle">
+        <item name="colorControlActivated">@color/system_green</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">@color/neutral_gray_50</item>
+    </style>
+
+    <style name="DialogStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMinor">95%</item>
+    </style>
+
+    <style name="CustomPopupTheme" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@color/main_background_color</item>
+    </style>
+
+    <style name="PopupMenu">
+        <item name="android:itemBackground">@color/neutral_gray_300</item>
+        <item name="android:background">@drawable/rectangle_shape_player_border</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">@color/neutral_gray_700</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

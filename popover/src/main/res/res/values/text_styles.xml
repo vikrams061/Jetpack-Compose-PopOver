@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+
+    <style name="Text" parent="android:TextAppearance" />
+
+    <style name="Text.Regular" />
+
+    <style name="Text.Regular.5">
+        <item name="android:textSize">5sp</item>
+    </style>
+
+    <style name="Text.Regular.6">
+        <item name="android:textSize">6sp</item>
+    </style>
+
+    <style name="Text.Regular.6.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.6.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.6.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.6.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.7">
+        <item name="android:textSize">7sp</item>
+    </style>
+
+    <style name="Text.Regular.7.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.7.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.7.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.7.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+
+    <style name="Text.Regular.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Regular.10.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.10.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.10.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.10.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.11">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Regular.11.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.11.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.11.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Regular.12.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.12.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.12.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.12.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.12.TertiaryInverseColor">
+        <item name="android:textColor">?android:textColorTertiaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Regular.14.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.14.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.14.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.14.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Regular.16.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.16.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.16.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.16.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.16.AccentColor">
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+
+    <style name="Text.Regular.17">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Regular.17.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Regular.18.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.18.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.18.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Regular.20.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.20.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.20.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.20.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Regular.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text.Regular.22.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.22.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.22.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Regular.24">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Regular.24.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Regular.24.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Regular.24.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium" />
+
+    <style name="Text.Medium.9">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="Text.Medium.9.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.9.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.9.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.9.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Medium.10.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.10.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.10.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.10.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.11">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Medium.11.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.11.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.11.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Medium.12.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.12.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.12.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.12.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Medium.14.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.14.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.14.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.14.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Medium.16.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.16.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.16.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.16.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.16.ColorSuccess">
+        <item name="android:textColor">?colorSuccess</item>
+    </style>
+
+    <style name="Text.Medium.17">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Medium.17.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.17.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.17.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.17.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Medium.18.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.18.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.18.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Medium.20.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.20.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.20.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.20.AccentDarkColor">
+        <item name="android:textColor">?colorAccentDark</item>
+    </style>
+
+    <style name="Text.Medium.20.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.24">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Medium.24.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.24.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.24.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Medium.24.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Medium.36">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="Text.Medium.36.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Medium.36.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Medium.36.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Bold.11">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Bold.11.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.11.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.11.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Bold.12.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.12.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.12.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.12.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Bold.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Bold.14.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.14.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.14.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Bold.16.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.16.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.16.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.16.PrimaryColorInverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Bold.17">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Bold.17.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.17.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.17.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Bold.18.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.18.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.18.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Bold.20.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.20.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.20.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text.Bold.22.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.22.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.22.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.24">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Bold.24.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.24.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.24.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.24.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Bold.28">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Text.Bold.28.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.28.PrimaryInverseColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Bold.28.SecondaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Text.Bold.28.TertiaryColor">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+
+    <style name="Text.Bold.32">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Text.Bold.32.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.34">
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="Text.Bold.34.PrimaryColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>

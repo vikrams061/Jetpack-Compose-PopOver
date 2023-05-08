@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/discover_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+
+    <include layout="@layout/discover_people_search_skeleton_item" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,27 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_appbar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:paddingHorizontal="@dimen/_8dp"
+    tools:paddingVertical="@dimen/_4dp"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <ImageView
+        android:id="@+id/appbar_logo_image_view"
+        android:layout_width="140dp"
+        android:layout_height="@dimen/_32dp"
+        android:layout_marginStart="@dimen/_8dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_skylab"
+        app:tint="?iconThemeTint" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</merge>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_32dp">
+
+    <ImageView
+        android:id="@+id/handle"
+        android:layout_width="@dimen/_64dp"
+        android:layout_height="@dimen/_6dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_16dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/dialog_handle" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/reshareButton"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/_32dp"
+        android:layout_marginTop="@dimen/_32dp"
+        android:layout_marginEnd="@dimen/_32dp"
+        android:background="@drawable/outlined_bg"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_16dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_group_reshare"
+            app:tint="?iconThemeTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:paddingHorizontal="@dimen/_12dp"
+            android:text="@string/reshare"
+            android:textColor="@color/group_dialog_text"
+            android:textSize="@dimen/_16sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/undoReshareButton"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/_32dp"
+        android:layout_marginTop="@dimen/_32dp"
+        android:layout_marginEnd="@dimen/_32dp"
+        android:background="@drawable/outlined_bg"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_marginStart="@dimen/_16dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_group_reshare"
+            app:tint="@color/error_red_500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_12dp"
+            android:text="@string/undo_reshare"
+            android:textColor="@color/error_red_500"
+            android:textSize="@dimen/_16sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/_32dp"
+        android:layout_marginTop="@dimen/_32dp"
+        android:layout_marginEnd="@dimen/_32dp"
+        android:background="@drawable/outlined_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_16dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_group_reshare"
+            android:visibility="gone"
+            app:tint="?iconThemeTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:paddingHorizontal="@dimen/_12dp"
+            android:text="@string/cancel"
+            android:textColor="@color/group_dialog_text"
+            android:textSize="@dimen/_16sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

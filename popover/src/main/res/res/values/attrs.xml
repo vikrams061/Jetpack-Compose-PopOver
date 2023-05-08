@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="dropDownStyle" format="reference" />
+    <attr name="autoCompleteTextStyle" format="reference" />
+    <attr name="primaryThemeTextColor" format="reference|color" />
+    <attr name="secondaryThemeTextColor" format="reference|color" />
+    <attr name="iconThemeTint" format="reference|color" />
+
+    <declare-styleable name="SpannedGridLayoutManager">
+        <attr name="android:orientation" />
+        <attr name="spanCount" />
+        <attr name="aspectRatio" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="UniversalTextView">
+        <attr name="android:text" />
+        <attr name="normalTextColor" format="color" />
+        <attr name="underLine" format="color" />
+        <attr name="hashtagColor" format="color" />
+        <attr name="mentionColor" format="color" />
+        <attr name="phoneColor" format="color" />
+        <attr name="urlColor" format="color" />
+        <attr name="emailColor" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="linkType" format="flags">
+            <flag name="hashtag" value="2" />
+            <flag name="mention" value="4" />
+            <flag name="url" value="8" />
+            <flag name="email" value="16" />
+            <flag name="phone" value="32" />
+            <flag name="highlight" value="64" />
+        </attr>
+        <attr name="highlightRadius" format="integer" />
+        <attr name="highlightColor" format="color" />
+        <attr name="highlightTextColor" format="color" />
+        <attr name="underLineColor" format="color" />
+        <attr name="underLineWidth" format="dimension" />
+
+        <!--        from expandable text-->
+        <attr name="tvLimitedMaxLines" format="integer" />
+        <attr name="tvOriginalText" format="string" />
+        <attr name="tvExpandAction" format="string" />
+        <attr name="tvExpandActionColor" format="color|reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="WidgetJoinButton">
+        <attr name="text" format="string" />
+        <attr name="stateActive" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomAppbar">
+        <attr name="title" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="additionalText" format="string" />
+        <attr name="additionalTextColor" format="integer" />
+        <attr name="additionalIcon" format="reference" />
+        <attr name="secondAdditionalIcon" format="reference" />
+        <attr name="navigationIcon" format="reference" />
+        <attr name="hasDivider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTabBar">
+        <attr name="tabText" format="string" />
+        <attr name="tabIcon" format="reference" />
+        <attr name="hasIcon" format="boolean" />
+        <attr name="tabStateSelected" format="boolean" />
+    </declare-styleable>
+
+    <!--    RoundedCornerLayout attributes     -->
+    <declare-styleable name="RoundedCornerLayout">
+        <attr name="android:background" format="color|reference" />
+        <attr name="radius_top_left" format="dimension" />
+        <attr name="radius_top_right" format="dimension" />
+        <attr name="radius_bottom_left" format="dimension" />
+        <attr name="radius_bottom_right" format="dimension" />
+
+        <attr name="radius_all" format="dimension" />
+    </declare-styleable>
+
+    <attr name="colorSuccess" format="reference|color" />
+    <attr name="colorAccentDark" format="reference|color" />
+
+    <declare-styleable name="StreakView">
+        <attr name="streakCount" format="string" />
+        <attr name="streakText" format="string" />
+        <attr name="streakElevation" format="float" />
+    </declare-styleable>
+
+    <attr name="icon" format="reference" />
+
+    <declare-styleable name="StatsView">
+        <attr name="icon" />
+        <attr name="statsTitle" format="string" />
+        <attr name="value" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogButtonOutlined">
+        <attr name="label" format="string" />
+        <attr name="color" format="color" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="limitedMaxLines" format="integer" />
+        <attr name="originalText" format="string" />
+        <attr name="expandAction" format="string" />
+        <attr name="expandActionColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SocialViewStyle">
+        <attr name="socialViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SocialView">
+        <!-- Determine whether each feature should be turned on/off.
+             Default is `hashtag|mention|hyperlink`. -->
+        <attr name="socialFlags">
+            <flag name="hashtag" value="1" />
+            <flag name="mention" value="2" />
+            <flag name="hyperlink" value="4" />
+        </attr>
+
+        <!-- Color of each feature.
+             If particular feature is not enabled, this value will be ignored.
+             Default is color accent of current theme. -->
+        <attr name="social_hashtagColor" format="color" />
+        <attr name="social_mentionColor" format="color" />
+        <attr name="social_hyperlinkColor" format="color" />
+    </declare-styleable>
+
+</resources>

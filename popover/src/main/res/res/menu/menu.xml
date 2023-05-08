@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/actionSubtitle"
+      android:title="@string/subtitles"
+      android:visible="false"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/actionPlayBack"
+      android:title="@string/playback_speed"
+      app:showAsAction="never"/>
+
+</menu>

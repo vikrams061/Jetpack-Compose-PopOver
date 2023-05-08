@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/ic_close"
+            android:backgroundTint="@color/white"
+            android:padding="10dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_16dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_spot_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_36sp"
+                    tools:text="title" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="@dimen/_170dp"
+                    android:layout_height="@dimen/_170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_70dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:adjustViewBounds="true"
+                    android:minHeight="250dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/avatar" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sp"
+                    tools:text="title" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sp"
+                    tools:text="@tools:sample/lorem/random" />
+
+                <Button
+                    android:id="@+id/bt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:background="@drawable/button_bg"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sp"
+                    tools:text="Rishabh" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_sponcer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sp" />
+
+                <android.webkit.WebView
+                    android:id="@+id/wv_sptlt_sponsor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:layout_marginTop="@dimen/_10adp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_sponsoredImage"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_30dp"
+                    android:layout_marginTop="@dimen/_13adp"
+                    android:contentDescription="@string/sponsored_by"
+                    android:visibility="gone" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

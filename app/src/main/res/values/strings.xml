@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">PopOver</string>
+    <string name="description_reunion">After moving away for a decade, Rhea returns to the bustling city on her quest for independence. Things are looking bleak, until she bumps into a familiar face - one she didn\'t think she would ever see again. Feelings rekindle as secrets begin to unfold, Rhea soon realizes her childhood friend may not be who she believes him to be, and thus her most cherished relationship is put to the test.</string>
+    <string name="read_more">Read more</string>
+    <string name="read_less">Read less</string>
+
+    <string name="settings">Settings</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="set_alarm">Set Alarm</string>
+
+    <string-array name="flower_array">
+        <item>Lily</item>
+        <item>Poppy</item>
+        <item>Sunflower</item>
+        <item>Freesia</item>
+        <item>Daisy</item>
+        <item>Rose</item>
+        <item>Daffodil</item>
+        <item>Lavender</item>
+        <item>Peony</item>
+        <item>Lilac</item>
+        <item>Dahlia</item>
+        <item>Tulip</item>
+        <item>Dandelion</item>
+        <item>Geranium</item>
+        <item>Gardenia</item>
+        <item>Rhododendron</item>
+        <item>Azalea</item>
+        <item>Oreo</item>
+        <item>Pie</item>
+        <item>Marshmallow</item>
+        <item>Nought</item>
+    </string-array>
+
+    <string-array name="fruits_array">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Pomegranate</item>
+        <item>Freesia</item>
+        <item>Apricots</item>
+        <item>Blackberries</item>
+        <item>Blueberries</item>
+        <item>Watermelon</item>
+        <item>Strawberries</item>
+        <item>Plums</item>
+        <item>Pineapple</item>
+        <item>Peaches</item>
+        <item>Orange</item>
+        <item>Olives</item>
+        <item>Mango</item>
+        <item>Lychee</item>
+        <item>Jackfruit</item>
+    </string-array>
+</resources>

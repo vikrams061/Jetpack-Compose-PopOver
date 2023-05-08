@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="follow">Follow</string>
+    <string name="follow_requested">Follow requested</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="back_again">Press again to exit</string>
+    <string name="reshared">Reshared</string>
+    <string name="post">Post</string>
+    <string name="live">Live</string>
+    <string name="reel">Reel</string>
+    <string name="story">Story</string>
+    <string name="more">\tMore\t</string>
+    <string name="less">\tLess\t</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="content_description" />
+    <string name="buy_now">Buy now</string>
+    <string name="members">Members</string>
+    <string name="member">Member</string>
+    <string name="normal">Normal</string>
+    <string name="view_pdf">View PDF</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="playback_speed">Playback Speed</string>
+    <string name="_0_25x">0.25x</string>
+    <string name="_0_5x">0.5x</string>
+    <string name="_0_75x">0.75x</string>
+    <string name="_1_25x">1.25x</string>
+    <string name="_1_5x">1.5x</string>
+    <string name="_2x">2x</string>
+
+    <string name="sponsored_by">Sponsored by</string>
+    <string name="write_a_message_">Write a message...</string>
+    <string name="copy">Copy</string>
+    <string name="reply">Reply</string>
+    <string name="replies_label">View %d Replies</string>
+    <string name="reply_to">Reply to: %s</string>
+
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="media">Media</string>
+    <string name="profile">Profile</string>
+    <string name="discover">Discover</string>
+    <string name="send">Send</string>
+    <string name="hint_post">Write a Caption…</string>
+    <string name="hint_post_comment">Add a comment here…</string>
+    <string name="flow_menu_profile_cannot_edit_default_highlight">Cannot edit default highlight</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="sms_email_and_more"><![CDATA[SMS, Email & More]]></string>
+    <string name="post_settings">Post settings</string>
+    <string name="shares">SHARES</string>
+
+    <string name="replies_count">View %s Replies</string>
+
+
+    <string name="in_the_future">in the future</string>
+    <string name="now">now</string>
+    <string name="second_ago">%ds ago</string>
+    <string name="minute_ago">%dm ago</string>
+    <string name="hour_ago">%dh ago</string>
+
+    <string name="actions">Actions</string>
+    <string name="recognition">Recognition</string>
+    <string name="trophy">Trophy Case</string>
+    <string name="view_more">View More</string>
+    <string name="view_less">View Less</string>
+    <string name="stories">Stories</string>
+    <string name="impact_stats_this_week">Impact stats: This Week</string>
+    <string name="activity_wall">Activity Wall</string>
+    <string name="following">Following</string>
+    <string name="what_s_new">What‘s New?</string>
+
+    <string name="all">All</string>
+
+    <string name="activity">Activity</string>
+    <string name="delete">Delete</string>
+    <string name="decline">Decline</string>
+    <string name="approve">Approve</string>
+    <string name="confirm">Confirm</string>
+    <string name="login_to_skylab">Login to Skylab</string>
+    <string name="login_to_app_name">Login to %1$s</string>
+    <string name="sign_in_with_phone">Sign in with phone</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="flow_auth_sign_in_with_oauth">Login to %s</string>
+    <string name="or">- or -</string>
+    <string name="sign_in_with_facebook">Continue with Facebook</string>
+    <string name="sign_in_with_apple">Continue with Apple</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+
+    <string name="spinner_default_hint">Select</string>
+
+    <string name="highlight_change_icon">Change Icon</string>
+    <string name="highlight_create">Create Custom Highlight</string>
+    <string name="highlight_create_button">Create Highlight</string>
+
+    <string name="highlight_delete">Delete highlight</string>
+    <string name="highlight_deleted">Highlight delete successfully</string>
+    <string name="highlight_edit">Edit highlight</string>
+    <string name="delete_confirm_highlight">ARE YOU SURE YOU WANT TO DELETE THIS HIGHLIGHT?</string>
+
+    <string name="highlight_name">Highlight Name</string>
+    <string name="highlight_category">Highlight Category</string>
+    <string name="highlight_create_hint">What are Highlights?\n\nAttach your highlight to your\ncontent, show your progress,\nmotivate others and earn rewards.</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="logout_title">Are you sure you want to logout?</string>
+
+    <string name="leave_group_confirmation_title">Are you sure you want to leave this group chat?</string>
+    <string name="leave_group_confirmation_message">You won’t get messages from this group unless someone adds you back to the conversation.</string>
+    <string name="leave">Leave</string>
+    <string name="explode_group_confirmation_title">Are you sure you want to explode this group chat?</string>
+    <string name="explode_group_confirmation_message">Exploding the chat will permanently delete the chat history and remove the group chat from all users.</string>
+    <string name="explode">Explode</string>
+    <string name="handoff_group_confirmation_title">Are you sure you want to hand off managing the group chat and leave?</string>
+    <string name="handoff_group_confirmation_message">You won’t get messages from this group unless someone adds you back to the conversation.</string>
+    <string name="pick_gallery">Choose From Library</string>
+    <string name="pick_camera">Take Photo</string>
+    <string name="delete_image">Delete image</string>
+
+    <plurals name="highlight_count_label">
+        <item quantity="one">+%d other %s</item>
+        <item quantity="other">+%d others %s</item>
+    </plurals>
+
+    <string name="delete_confirm_hint">ARE YOU SURE YOU WANT TO DELETE THIS POST?</string>
+    <string name="choose_one_required">Choose one (required)</string>
+    <string name="choose_one_or_more_required">Choose one or more (required)</string>
+    <string name="choose_one">Choose one</string>
+    <string name="choose_one_or_more">Choose one or more</string>
+    <string name="add_more_interests">Add more interests</string>
+    <string name="hide_more_interests">Hide more interests</string>
+    <string name="pick_avatar">Pick an Avatar</string>
+    <string name="back">Back</string>
+    <string name="pick_an_avatar">Pick an Avatar</string>
+    <string name="add">Add</string>
+
+    <string name="user_tags_required">User tags required</string>
+    <string name="day">%1$s day</string>
+    <string name="days">%1$s days</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="createPost">Create Post</string>
+    <string name="editPost">Edit Post</string>
+    <string name="discardPhoto">Discard photo?</string>
+    <string name="deletePhoto">Your photo will be deleted.</string>
+    <string name="discardVideo">Discard Video?</string>
+    <string name="videoDuration">Your video duration is less than 3sec.</string>
+    <string name="shortDuration">Short Duration</string>
+    <string name="shortDurationMsg">Selected video duration is less than 3sec.</string>
+    <string name="discardClip">Discard this clip?</string>
+    <string name="discardClipMsg">If you continue, this clip will be deleted from your video.</string>
+    <string name="keepEditing">Keep Editing</string>
+    <string name="keepRecord">Keep Record</string>
+    <string name="add_icon">Add Icon</string>
+    <string name="close">Close</string>
+    <string name="save">SAVE</string>
+    <string name="library">Library</string>
+
+    <string name="report_post_title">ARE YOU SURE YOU WANT TO REPORT THIS POST?</string>
+    <string name="saved_post_title">THIS POST HAS BEEN BOOKMARKED.</string>
+    <string name="save_post_title">ARE YOU SURE YOU WANT TO BOOKMARK THIS POST?</string>
+    <string name="report">Report</string>
+    <string name="successfully_reported">Successfully reported</string>
+    <string name="delete_user_title">ARE YOU SURE YOU WANT TO BLOCK THIS USER?</string>
+    <string name="delete_user_blocked">Block</string>
+    <string name="successfully_user_blocked">Successfully user blocked</string>
+    <string name="added_to_clipboard">Copied to clipboard!</string>
+
+
+    <string name="greetings_title">Welcome to %1$s</string>
+    <string name="greetings_desc">When you follow people, you will see their post here in your activity feed.</string>
+    <string name="application">Application</string>
+    <string name="share_app">Share App</string>
+    <string name="share">Share</string>
+    <string name="are_you_sure_handoff_leave">ARE YOU SURE YOU WANT TO HANDOFF MANAGING THE GROUP AND LEAVE?</string>
+    <string name="handoff_leave_desc">You won’t get messages from this group unless you rejoin or are invited back to the group.</string>
+    <string name="are_you_sure_leave">ARE YOU SURE YOU WANT TO LEAVE THIS GROUP?</string>
+    <string name="leave_desc">You won’t get messages from this group unless you rejoin or are invited back to the group.</string>
+    <string name="are_you_sure_explode">ARE YOU SURE YOU WANT TO EXPLODE THIS GROUP?</string>
+    <string name="explode_desc">"Exploding the group will permanently delete the group and remove the group from all users. "</string>
+    <string name="private_group_request_title">THIS GROUP IS PRIVATE. YOUR REQUEST MUST BE ACCEPTED BY A GROUP ADMIN.</string>
+    <string name="submit_request_desc">Before participating in this group a group admin must accept your request to join. Would you like to proceed?</string>
+    <string name="admin_must_accept">THIS GROUP IS PRIVATE. YOUR REQUEST MUST BE ACCEPTED BY A GROUP ADMIN.</string>
+    <string name="before_join_admin_accept">Before participating in this group a group admin must accept your request to join. Would you like to proceed?</string>
+    <string name="sure_leave">ARE YOU SURE YOU WANT TO LEAVE?</string>
+    <string name="nothing_will_be_saved">Information you provided will be erased and not saved if you close the page.</string>
+    <string name="group_requires_code">THIS GROUP IS PRIVATE AND REQUIRES A CODE TO JOIN.</string>
+    <string name="no_match_found">No match found</string>
+    <string name="post_report_success">Post Reported Successfully</string>
+
+    <string name="group_empty_post_title">Be the first to post in this group!</string>
+    <string name="group_empty_post_message">All posts within this group will appear here.</string>
+    <string name="post_pinned">Post Pinned</string>
+    <string name="block_user_title">ARE YOU SURE YOU WANT TO BLOCK THIS USER?</string>
+    <string name="no_pending_invites">You currently have no pending invites</string>
+    <string name="select_image">Please select image</string>
+    <string name="select_category">Please select category</string>
+    <string name="results_for">Results for</string>
+    <string name="permissions">Permissions</string>
+    <string name="permissions_title">Allow %1$s to access\n the following:</string>
+    <string name="permissions_title_location">Location</string>
+    <string name="permissions_title_camera">Camera &amp; Microphone</string>
+    <string name="permissions_title_record_audio">Record audio</string>
+    <string name="permissions_title_write_external_storage">Write external storage</string>
+    <string name="permissions_title_call_phone">Call phone</string>
+    <string name="continue_title">Continue</string>
+    <string name="profile_settings">Profile Settings\n</string>
+    <string name="account_settings">Account Settings\n</string>
+    <string name="help">Help</string>
+    <string name="implemented_soon">This functionality will be implemented soon 🙈</string>
+    <string name="all_options_disabled">All Options Disabled</string>
+    <string name="reshare">Reshare</string>
+    <string name="undo_reshare">Undo reshare</string>
+    <string name="highlight_limit_reach_desc">Good work! You\'ve reached your daily limit for this action. Please try again at a later date.</string>
+    <string name="link_copied">Link is copied</string>
+    <string name="open">Open</string>
+    <string name="change_community">Change Community</string>
+    <string name="alphabetical">Alphabetical</string>
+    <string name="featured">Featured</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="don_t_have_an_account_sign_up">Don‘t have an account? <u>Sign up</u></string>
+    <string name="permissions_title_photos"><![CDATA[Photos & Videos]]></string>
+    <string name="permissions_desc_photos">Allow access to your library so you can share photos and videos in posts and chat messages.</string>
+    <string name="permissions_desc_camera">Allow access to your camera and microphone so you can take photos and record videos to share with your firends.</string>
+    <string name="permissions_desc_location">We use location information to provide you with an app experience such as content and rewards, specific to the location you are currently in.</string>
+    <string name="permissions_settings_desc">Your permission settings can be updated at anytime in your device settings.</string>
+    <string name="settings">Settings</string>
+    <string name="change">Change</string>
+    <string name="remove">Remove</string>
+    <string name="done">Done</string>
+    <string name="location">Location</string>
+    <string name="camera">Camera</string>
+    <string name="audio">Audio</string>
+    <string name="login">Login</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_error">Please wait!</string>
+    <string name="people">People</string>
+    <string name="successfully_saved">Saved successfuly</string>
+    <string name="miscalleous">Miscellaneous</string>
+    <string name="notification_channel_id">App_Skylab</string>
+    <string name="comment_report_title">ARE YOU SURE YOU WANT TO REPORT THIS COMMENT?</string>
+
+</resources>

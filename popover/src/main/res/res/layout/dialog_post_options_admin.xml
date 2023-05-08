@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_64dp"
+        android:layout_height="@dimen/_6dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_16dp"
+        android:src="@drawable/dialog_handle" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/firstRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_36sp"
+        android:orientation="horizontal">
+
+        <app.skylab.coreui.customview.DialogButtonOutlined
+            android:id="@+id/linkButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_group_share"
+            app:label="Link" />
+
+        <app.skylab.coreui.customview.DialogButtonOutlined
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:icon="@drawable/ic_group_share"
+            app:label="Save" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/secondRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:orientation="horizontal">
+
+        <app.skylab.coreui.customview.DialogButtonOutlined
+            android:id="@+id/blockButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_marginEnd="@dimen/_12dp"
+            android:layout_weight="1"
+            app:color="@color/blackWhite"
+            app:icon="@drawable/ic_user_block"
+            app:label="Block" />
+
+        <app.skylab.coreui.customview.DialogButtonOutlined
+            android:id="@+id/reportButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_marginEnd="@dimen/_12dp"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_group_share"
+            app:label="Report"
+            app:color="@color/error_red_500" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <app.skylab.coreui.customview.DialogButtonOutlined
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_36sp"
+        app:label="Delete"
+        app:color="@color/error_red_500" />
+
+    <app.skylab.coreui.customview.DialogButtonOutlined
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_36sp"
+        android:layout_marginBottom="@dimen/_24dp"
+        app:label="Cancel" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chip"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/ripple_background_with_5dp_radius"
+    android:gravity="center"
+    android:paddingHorizontal="@dimen/_12sp"
+    android:textColor="@color/neutral_gray_700"
+    android:textSize="11sp"
+    tools:text="Fitness" />

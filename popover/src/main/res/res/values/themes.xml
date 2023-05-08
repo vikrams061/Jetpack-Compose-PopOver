@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MaterialButtonProfileButtonStyle" parent="@style/Base.Widget.AppCompat.Button">
+        <item name="android:colorButtonNormal">#006BD6</item>
+        <item name="android:inset">0dp</item>
+        <item name="buttonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="SelectMediaTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="maxLines">1</item>
+        <item name="singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="background">@color/neutral_gray_500</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/neutral_gray_700</item>
+    </style>
+
+    <style name="IOSLikeTabLayoutStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicator">@null</item>
+        <item name="android:background">@drawable/tab_background</item>
+        <item name="tabTextColor">?primaryThemeTextColor</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabTextAppearance">@style/MineCustomTabText</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="IOSLikeTabLayoutStyleBlue" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_selector_blue</item>
+        <item name="tabIndicator">@null</item>
+        <item name="android:background">@drawable/tab_background_with_stroke</item>
+        <item name="tabTextColor">@color/neutral_gray_700</item>
+        <item name="tabMode">auto</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabTextAppearance">@style/MineCustomTabText</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="rippleColor">@null</item>
+        <item name="tabRippleColor">@null</item>
+    </style>
+
+    <style name="FullScreenDialogStyle">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="Theme.App.Dialog.FullScreen" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/dialog_bg</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+    <!--Bottom Sheet with Rounded Corners and Dark Mode Support-->
+    <style name="ModalBottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <!-- Apply attributes here -->
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ModalBottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheet</item>
+    </style>
+
+    <!--Material Date Picker with Header Toggle Disabled-->
+    <style name="Widget.AppTheme.MaterialDatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarHeaderToggleButton">
+            @style/Widget.AppTheme.MaterialCalendar.HeaderToggleButton
+        </item>
+    </style>
+
+    <style name="Widget.AppTheme.MaterialCalendar.HeaderToggleButton" parent="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!--Location Fragment Toolbar Theme with Dark mode-->
+    <style name="App.ToolbarStyle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:actionMenuTextColor">@color/primary_blue_700</item>
+    </style>
+
+    <style name="App.ToolbarMenuItem" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/primary_blue_700</item>
+    </style>
+
+</resources>
