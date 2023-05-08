@@ -20,7 +20,6 @@ import com.layout.popover.ui.theme.PopOverTheme
 import com.layout.view.popui.AnchorEdge
 import com.layout.view.popui.Tooltip
 import com.layout.view.popui.TooltipStyle
-
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
